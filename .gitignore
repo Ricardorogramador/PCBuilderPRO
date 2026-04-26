@@ -1,0 +1,29 @@
+# .gitignore
+# Archivos que NO se suben a GitHub
+
+# Archivos de configuración local
+application-local.properties
+application-dev.properties
+application-prod.properties
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Dependencias
+target/
+node_modules/
+.DS_Store
+
+# Archivos del sistema
+*.log
+*.pid
+*.seed
+
+# Archivos secretos
+.env
+.env.local
+secrets.properties
