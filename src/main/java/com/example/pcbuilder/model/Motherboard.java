@@ -24,8 +24,8 @@ public class Motherboard {
     private String name;
     @NotNull @Positive
     private Double price;
-    @NotBlank
-    private String socket;
+    @Enumerated(EnumType.STRING)
+    private SocketType socketTypeMb;
     @Enumerated(EnumType.STRING)
     private TypeRam motherboardTypeRam;
 }

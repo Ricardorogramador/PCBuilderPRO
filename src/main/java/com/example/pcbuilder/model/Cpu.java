@@ -23,6 +23,6 @@ public class Cpu {
     private String name;
     @NotNull @Positive @Column(nullable = false)
     private Double price;
-    @NotBlank @Column(nullable = false)
-    private String socket;
+    @Enumerated(EnumType.STRING)
+    private SocketType socketType;
 }
