@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @Data
 public class RamResponse {
-    private Long id;
+    private Integer id;
     private String name;
     private Double price;
     private TypeRam typeRamDTO;

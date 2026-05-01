@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @Data
 public class MotherboardResponse {
-    private Long id;
+    private Integer id;
     private String name;
     private Double price;
     private SocketType socketTypeDTO;

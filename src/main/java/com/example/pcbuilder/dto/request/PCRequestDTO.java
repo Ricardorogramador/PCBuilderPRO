@@ -1,8 +1,17 @@
 package com.example.pcbuilder.dto.request;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
 public class PCRequestDTO {
-    private Long motherBoardId;
-    private Long cpuId;
-    private Long ramId;
-    private Long gpuId;
+    private Integer motherBoardId;
+    private Integer cpuId;
+    private Integer ramId;
+    private Integer gpuId;
 }
