@@ -1,5 +1,8 @@
 package com.example.pcbuilder.dto.request;
 
+import com.example.pcbuilder.model.Role;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
